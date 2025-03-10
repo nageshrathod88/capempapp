@@ -22,6 +22,7 @@ module.exports = cds.service.impl(async function() {
             return result.SALARYAMOUNT;
         } catch (error) {
             console.error("Error fetching highest salary:", error);
+            console.error("Error fetching highest salary from Mater Dev:", error);
             return req.reject(500, "An error occurred: " + error.message);
         }
     });
