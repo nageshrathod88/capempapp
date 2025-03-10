@@ -1,0 +1,6 @@
+NODE_KEY,BP_ROLE,EMAIL_ADDRESS,PHONE_NUMBER,FAX_NUMBER,WEB_ADDRESS,ADDRESS_GUID_NODE_KEY,BP_ID,COMPANY_NAME
+"b5f2e0d5-4bfa-43c2-924a-d519ec72e2a1",1,"john.doe@example.com",1234567890,9876543210,"http://example.com","4b98c394-1f8c-4a0d-a22b-6e4f9f64d456",101,"John Doe Inc"
+"bc7c10c8-03d6-4997-b569-df65ad1131a2",2,"jane.smith@example.com",2233445566,6655443322,"http://smithcorp.com","5a78e7a3-3cbb-489a-9b98-d6718368b4f3",102,"Smith Corp"
+"eab6a6a5-345b-4e62-b7c8-b659487bf7b4",3,"robert.brown@example.com",3344556677,7766554433,"http://brownent.com","6c12f6f8-7e84-4e18-967a-c3589f238c16",103,"Brown Enterprises"
+"e51f8c71-76a5-48db-b79d-92f4913c6f29",1,"emily.white@example.com",1122334455,5544332211,"http://whiteco.com","7d12c839-8d3b-429b-8185-96761d732d43",104,"White & Co"
+"cc5a9bdf-1f22-48fc-9d5c-9b742d728d83",2,"david.green@example.com",4455667788,8877665544,"http://greentech.com","8e34a712-6b27-4c72-985f-79f84c92d5b7",105,"GreenTech Ltd"

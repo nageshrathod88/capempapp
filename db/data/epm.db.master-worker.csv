@@ -1,0 +1,11 @@
+FIRSTNAME,LASTNAME,GENDER,PHONENUMBER,EMAIL,CURRENCY_CODE,SALARYAMOUNT
+"John","Doe","Male","1234567890","john.doe@example.com","USD",75000.00
+"Jane","Smith","Female","9876543210","jane.smith@example.com","EUR",68000.00
+"Michael","Johnson","Male","4567891230","michael.johnson@example.com","GBP",72000.00
+"Emily","Davis","Female","7891234560","emily.davis@example.com","INR",58000.00
+"Robert","Brown","Male","3216549870","robert.brown@example.com","JPY",63000.00
+"Olivia","Garcia","Female","6543217890","olivia.garcia@example.com","AUD",70000.00
+"William","Martinez","Male","9873216540","william.martinez@example.com","CAD",75000.00
+"Sophia","Rodriguez","Female","1237894560","sophia.rodriguez@example.com","NZD",64000.00
+"James","Wilson","Male","4561237890","james.wilson@example.com","SGD",72000.00
+"Isabella","Hernandez","Female","7894561230","isabella.hernandez@example.com","CHF",68000.00

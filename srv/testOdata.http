@@ -1,0 +1,133 @@
+GET http://localhost:4004/odata/v4/EPMServices/product HTTP/1.1
+
+###
+
+GET http://localhost:4004/odata/v4/EPMServices/address/ADDR002 HTTP/1.1
+
+###
+
+GET http://localhost:4004/odata/v4/EPMServices/businesspartner HTTP/1.1
+
+
+###crud create read update delete
+POST http://localhost:4004/odata/v4/EPMServices/businesspartner HTTP/1.1
+Content-Type: application/json
+
+{
+      "NODE_KEY": "df4kdf403-4bfa-43c2-dh4r-d519ec72dhe7",
+      "BP_ROLE": 4,
+      "EMAIL_ADDRESS": "Nirmala.doe@example.com",
+      "PHONE_NUMBER": 7638946738,
+      "FAX_NUMBER": 4890748499,
+      "WEB_ADDRESS": "http://Nirmala.com",
+      "ADDRESS_GUID_NODE_KEY": "6fg7jsb3-1f8c-4a0d-a22b-6e4f9f64hd458",
+      "BP_ID": 123,
+      "COMPANY_NAME": "Nirmal Inc"
+}
+
+###
+
+PUT http://localhost:4004/odata/v4/EPMServices/businesspartner/BP004 HTTP/1.1
+Content-Type: application/json
+
+{
+     
+      "EMAIL_ADDRESS": "RamSita@example.com",      
+      "WEB_ADDRESS": "www.ramsita123.com",      
+      "COMPANY_NAME": "RAM sita Corp"
+}
+
+###
+
+PATCH http://localhost:4004/odata/v4/EPMServices/businesspartner/b5f2e0d5-4bfa-43c2-924a-d519ec72e2a1 HTTP/1.1
+Content-Type: application/json
+
+{
+     
+      "EMAIL_ADDRESS": "lakshman123@example.com",      
+      "WEB_ADDRESS": "www.lakshman123.com",      
+      "COMPANY_NAME": "lakshman123 Corp"
+}
+
+###
+
+DELETE http://localhost:4004/odata/v4/EPMServices/businesspartner/b5f2e0d5-4bfa-43c2-924a-d519ec72e2a1 HTTP/1.1
+
+###crud create read update delete
+POST http://localhost:4004/odata/v4/EPMServices/worker HTTP/1.1
+Content-Type: application/json
+
+{
+      "FIRSTNAME": "Nim",
+      "LASTNAME": "Mar",
+      "GENDER": "F",
+      "PHONENUMBER": "9875488392",
+      "EMAIL": "Nirm@example.com",
+      "CURRENCY_CODE": "USD",
+      "SALARYAMOUNT": 99990
+}
+
+###crud create read update delete
+GET http://localhost:4004/odata/v4/EPMServices/worker HTTP/1.1
+
+###
+
+GET http://localhost:4004/odata/v4/CDSViewSrv/ItemView HTTP/1.1
+
+###
+
+POST http://localhost:4004/odata/v4/CDSViewSrv/ItemView HTTP/1.1
+Content-Type: application/json
+
+{
+"VendorID": "bc7c10c8-03d6-4997-b569-df65ad1159m1",
+"ProductID": "5e27a6d2-d870-4573-8f8c-fb64e43b4561",
+"Currencycode": "EUR",
+"netAmount": 2034,
+"TaxAmount": 300,
+"POStatus": "C"
+}
+   
+###
+
+POST http://localhost:4004/odata/v4/new-cql/insertWorker HTTP/1.1
+Content-Type: application/json
+
+{
+"FIRSTNAME": "Sachin",
+"LASTNAME": "Tendulkar",
+"GENDER": "M",
+"EMAIL": "Sachin.Tendulkar@example.com",
+"PHONENUMBER": "7545842345",
+"CURRENCY_CODE": "USD",
+"SALARYAMOUNT": 74500
+}
+
+###
+
+PATCH http://localhost:4004/odata/v4/new-cql/updateWorker/6f620c81-8a5d-49f2-a3d2-07133f324117 HTTP/1.1
+Content-Type: application/json
+
+{
+"FIRSTNAME": "SachinWife",
+"LASTNAME": "Aunty"
+}
+
+
+###
+
+DELETE http://localhost:4004/odata/v4/new-cql/deleteWorker/6f620c81-8a5d-49f2-a3d2-07133f324117 HTTP/1.1
+
+###
+
+POST http://localhost:4004/odata/v4/salaryservice/salaryWorkers HTTP/1.1
+Content-Type: application/json
+
+{
+"ID": "0053107c-d8dc-412a-9cf4-822a5fc961d9"
+}
+
+###
+
+GET http://localhost:4004/odata/v4/high-sal/getHighestSalary()
+
